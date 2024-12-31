@@ -170,14 +170,14 @@ canvas {
 
 @media (max-width: 768px) {
     .msg {
-        margin-top: 50rem; /* Adjust margin for smaller screens */
+        margin-top: 30rem; /* Adjust margin for smaller screens */
         font-size: 1rem; /* Reduce font size for mobile devices */
     }
 }
 
 @media (max-width: 480px) {
     .msg {
-        margin-top: 50rem; /* Further reduce margin for very small screens */
+        margin-top: 30rem; /* Further reduce margin for very small screens */
         font-size: 0.9rem; /* Further reduce font size for very small screens */
     }
 }
