@@ -127,27 +127,27 @@ canvas {
         flex-direction: column; /* Stack "Happy", "New", and "Year" */
         font-size: 15vw; /* Adjust font size for smaller screens */
         gap: 2rem; /* Minimize spacing */
-        top: 20vh; /* Move higher */
+        top: 10vh; /* Move higher */
         letter-spacing: 0; /* Normal letter spacing */
     }
 
     .year {
         font-size: 12vw; /* Adjust "2025" size */
-        top: 65vh; /* Push lower */
+        top: 45vh; /* Push lower */
     }
 }
 
 @media (max-width: 480px) {
     .content {
         font-size: 18vw; /* Further reduce font size */
-        top: 25vh;
+        top: 10vh;
         gap: 1rem; /* Further minimize spacing */
         letter-spacing: 0.2rem; /* Slightly increase spacing for readability */
     }
 
     .year {
         font-size: 14vw;
-        top: 65vh; /* Push even lower */
+        top: 45vh; /* Push even lower */
     }
 }
 
@@ -170,14 +170,14 @@ canvas {
 
 @media (max-width: 768px) {
     .msg {
-        margin-top: 30rem; /* Adjust margin for smaller screens */
+        margin-top: 15rem; /* Adjust margin for smaller screens */
         font-size: 1rem; /* Reduce font size for mobile devices */
     }
 }
 
 @media (max-width: 480px) {
     .msg {
-        margin-top: 30rem; /* Further reduce margin for very small screens */
+        margin-top: 15rem; /* Further reduce margin for very small screens */
         font-size: 0.9rem; /* Further reduce font size for very small screens */
     }
 }
